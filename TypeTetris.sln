@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2011
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "WebTetris", "NodejsWebApp2\WebTetris.njsproj", "{D5EB6736-6298-43CB-8F6F-21649B8529C0}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TypeTetris", "TypeTetris\TypeTetris.njsproj", "{D5EB6736-6298-43CB-8F6F-21649B8529C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
