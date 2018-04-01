@@ -1,12 +1,16 @@
 {
-  "name": "nodejs-web-app2",
+  "name": "type-tetris",
   "version": "0.0.0",
-  "description": "NodejsWebApp2",
+  "description": "TypeTetris",
   "main": "app.js",
   "author": {
     "name": "r.byriak"
   },
   "devDependencies": {
     "@types/node": "^6.0.87"
+  },
+  "dependencies": {
+    "systemjs": "^0.21.1",
+    "typescript": "^2.8.1"
   }
 }
