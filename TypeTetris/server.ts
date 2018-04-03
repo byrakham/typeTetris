@@ -11,13 +11,12 @@ http.createServer(function (request, response) {
     //SystemJS.import('modules/app.js').then(function (m) {
     //    console.log(m);
     //});
-    // получаем путь после слеша
+    
     var filePath = request.url.substr(1);
-    // установка пути по умолчанию
-    if (filePath == "") filePath = "views/index.html";
+        if (filePath == "") filePath = "views/index.html";
     fs.readFile(filePath, function (error, data) {
 
-        if (error) {  // если файл не найден
+        if (error) { 
             response.statusCode = 404;
             response.end("Not Found");
         }

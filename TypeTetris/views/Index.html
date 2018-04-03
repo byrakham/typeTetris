@@ -4,18 +4,19 @@
 <head>
     <meta charset="utf-8" />
     <title>type tetris</title>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/systemjs/dist/system.js"></script>
     <!--<script src="node_modules/typescript/lib/typescript.js"></script>-->
-    <!--<script src="modules/app.js"></script>-->
+    <script src="lib/scripts/app.js"></script>
     <script>
-        System.config({
-            baseURL: "modules",
-            transpiler: "typescript",
+        SystemJS.config({
+            baseURL: "/lib/scripts/",
+            //transpiler: "typescript",
             packages: {
                 "/": { defaultExtension: "js" }
             }
         });
-        System.import('app').then(null, console.error.bind(console));
+        SystemJS.import('app').then(null, console.error.bind(console));
     </script>
 </head>
 <body>

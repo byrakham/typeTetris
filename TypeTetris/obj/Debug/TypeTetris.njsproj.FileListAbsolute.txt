@@ -1,0 +1,2 @@
+E:\MY\Work\TypeScriptProjects\TypeTetris\typeTetris\TypeTetris\obj\Debug\TypeTetris.njsproj.CoreCompileInputs.cache
+E:\MY\Work\TypeScriptProjects\TypeTetris\typeTetris\TypeTetris\bin\Microsoft.NodejsTools.WebRole.dll

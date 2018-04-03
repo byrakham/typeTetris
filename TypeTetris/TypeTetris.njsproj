@@ -14,7 +14,7 @@
     <ProjectGuid>d5eb6736-6298-43cb-8f6f-21649b8529c0</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>server.ts</StartupFile>
+    <StartupFile>lib/server.js</StartupFile>
     <StartWebBrowser>True</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -42,24 +42,29 @@
     <Content Include="views\Index.html">
       <SubType>Code</SubType>
     </Content>
-    <TypeScriptCompile Include="modules\app.ts">
+    <TypeScriptCompile Include="scripts\app.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
-    <TypeScriptCompile Include="modules\testModule.ts">
+    <TypeScriptCompile Include="scripts\JQuery.d.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
-    <TypeScriptCompile Include="modules\tetris_modules\events.ts" />
-    <TypeScriptCompile Include="modules\tetris_modules\figures.ts" />
-    <TypeScriptCompile Include="modules\tetris_modules\geometry.ts" />
-    <TypeScriptCompile Include="modules\tetris_modules\game.ts" />
+    <TypeScriptCompile Include="scripts\modules\testModule.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="scripts\modules\tetris_modules\events.ts" />
+    <TypeScriptCompile Include="scripts\modules\tetris_modules\figures.ts" />
+    <TypeScriptCompile Include="scripts\modules\tetris_modules\geometry.ts" />
+    <TypeScriptCompile Include="scripts\modules\tetris_modules\game.ts" />
     <TypeScriptCompile Include="server.ts" />
     <Content Include="tsconfig.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="modules\" />
-    <Folder Include="modules\tetris_modules\" />
+    <Folder Include="scripts\modules\" />
+    <Folder Include="scripts\modules\tetris_modules\" />
+    <Folder Include="lib\" />
+    <Folder Include="scripts\" />
     <Folder Include="styles\" />
     <Folder Include="views\" />
   </ItemGroup>

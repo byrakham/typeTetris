@@ -2,7 +2,7 @@
   "name": "type-tetris",
   "version": "0.0.0",
   "description": "TypeTetris",
-  "main": "app.js",
+  "main": "lib/scripts/app.js",
   "author": {
     "name": "r.byriak"
   },
@@ -10,6 +10,7 @@
     "@types/node": "^6.0.87"
   },
   "dependencies": {
+    "jquery": "^3.3.1",
     "systemjs": "^0.21.1",
     "typescript": "^2.8.1"
   }

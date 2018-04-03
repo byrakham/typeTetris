@@ -3,7 +3,8 @@
     "module": "system",
     "target": "es5",
     "lib": [ "es5" ],
-    "sourceMap": true
+    "sourceMap": true,
+    "outDir": "lib/"
   },
   "exclude": [
     "node_modules"
